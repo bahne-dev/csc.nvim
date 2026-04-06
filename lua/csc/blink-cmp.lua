@@ -17,7 +17,7 @@ end
 function source:get_completions(_, callback)
     local scope_context = parser.get_scope_edit_context()
 
-    if not scope_context.in_scope_parentheses then
+    if not scope_context or not scope_context.in_scope_parentheses then
         callback()
         return
     end
