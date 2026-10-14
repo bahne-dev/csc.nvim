@@ -40,7 +40,7 @@ Unlike JavaScript-based solutions that require polluting your project with confi
 {
   'hrsh7th/nvim-cmp',
   dependencies = {
-    'yus-works/csc.nvim',
+    'bahne-dev/csc.nvim',
     -- other sources...
   },
   config = function()
@@ -62,7 +62,7 @@ Unlike JavaScript-based solutions that require polluting your project with confi
 use {
   'hrsh7th/nvim-cmp',
   requires = {
-    'yus-works/csc.nvim',
+    'bahne-dev/csc.nvim',
     -- other sources...
   },
   config = function()
@@ -82,7 +82,7 @@ use {
 
 ```vim
 Plug 'hrsh7th/nvim-cmp'
-Plug 'yus-works/csc.nvim'
+Plug 'bahne-dev/csc.nvim'
 ```
 
 Then in your init.vim/init.lua after plug#end():
@@ -127,7 +127,7 @@ the completion suggestions will work exactly as before.
 {
   'saghen/blink.cmp',
   dependencies = {
-    { 'yus-works/csc.nvim', opts = {} },
+    { 'bahne-dev/csc.nvim', opts = {} },
     -- other sources...
   },
 }
@@ -139,7 +139,7 @@ the completion suggestions will work exactly as before.
 use {
   'saghen/blink.cmp',
   requires = {
-    { 'yus-works/csc.nvim' },
+    { 'bahne-dev/csc.nvim' },
     -- other sources...
   },
   config = function()
@@ -152,7 +152,7 @@ use {
 
 ```vim
 Plug 'saghen/blink.cmp'
-Plug 'yus-works/csc.nvim'
+Plug 'bahne-dev/csc.nvim'
 ```
 
 Then in your init.vim/init.lua after plug#end():
